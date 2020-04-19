@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+<style>
+    :root {
+        --main-bg-color: pink;
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: var(--main-bg-color);
+        --text-color: #080
+    }
+    .box .header {
+        color: var(--text-color, blue);
+    }
+</style>
+</head>
+<body>
+    <button id="export">导出excel</button><br>
+    <table class="exportTable" id="yourHtmTable">
+        <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        </tr>
+        <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        </tr>
+        <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        </tr>
+    </table>
+    <div class="box">
+        哈哈哈
+        <h4 class="header">你好</h4>
+    </div>
+<script>
+    $("#export").click(function() {
+        $('#yourHtmTable').table2excel({
+            exclude: ".excludeThisClass",
+            name: "Worksheet Name",
+            filename: "SomeFile.xls", // do include extension
+            preserveColors: false // set to true if you want background colors and font colors preserved
+        });
+    })
+</script>
+</body>
+</html>

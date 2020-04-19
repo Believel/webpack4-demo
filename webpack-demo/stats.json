@@ -1,0 +1,446 @@
+ DONE  Compiled successfully in 6610ms10:45:10
+
+{
+  "errors": [],
+  "warnings": [],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "index": 1,
+      "index2": 2,
+      "size": 189,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+      "issuerId": null,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/common/utils.js",
+      "name": "./common/utils.js",
+      "index": 11,
+      "index2": 10,
+      "size": 58,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+      "issuerId": null,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 2,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/object-assign/index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "index": 3,
+      "index2": 0,
+      "size": 2226,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/cjs/react.production.min.js",
+      "issuerId": 5,
+      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        },
+        {
+          "id": 0,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js"
+        },
+        {
+          "id": 5,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/cjs/react.production.min.js",
+          "name": "./node_modules/react/cjs/react.production.min.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "index": 4,
+      "index2": 6,
+      "size": 1352,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+      "issuerId": null,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 4,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/large-number-zpp/index.js",
+      "name": "./node_modules/large-number-zpp/index.js",
+      "index": 13,
+      "index2": 13,
+      "size": 167,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+      "issuerId": null,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 5,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/cjs/react.production.min.js",
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "index": 2,
+      "index2": 1,
+      "size": 8852,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/index.js",
+      "issuerId": 0,
+      "issuerName": "./node_modules/react/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        },
+        {
+          "id": 0,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react/index.js",
+          "name": "./node_modules/react/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 6,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "index": 5,
+      "index2": 5,
+      "size": 172475,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/index.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/react-dom/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 7,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "index": 6,
+      "index2": 4,
+      "size": 197,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 6,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 8,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "index": 7,
+      "index2": 3,
+      "size": 7099,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/scheduler/index.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/scheduler/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/index.js",
+          "name": "./node_modules/react-dom/index.js"
+        },
+        {
+          "id": 6,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
+        },
+        {
+          "id": 7,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/scheduler/index.js",
+          "name": "./node_modules/scheduler/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 9,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/css-loader/dist/cjs.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/postcss-loader/src/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/px2rem-loader/index.js??ref--5-3!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.css",
+      "name": "./src/index/index.css",
+      "index": 8,
+      "index2": 8,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+      "issuerId": null,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 10,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/large-number-zpp/dist/large-number.min.js",
+      "name": "./node_modules/large-number-zpp/dist/large-number.min.js",
+      "index": 14,
+      "index2": 12,
+      "size": 2163,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/large-number-zpp/index.js",
+      "issuerId": 4,
+      "issuerName": "./node_modules/large-number-zpp/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        },
+        {
+          "id": 4,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/large-number-zpp/index.js",
+          "name": "./node_modules/large-number-zpp/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 11,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js 18fcd08ea17af34a05c98b039709b040",
+      "name": "./src/index/index.js + 2 modules",
+      "index": 0,
+      "index2": 14,
+      "size": 4304,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 12,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/search/index.js c1e463f2ca733aaee790f2b224a14228",
+      "name": "./src/search/index.js + 1 modules",
+      "index": 15,
+      "index2": 16,
+      "size": 245,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 13,
+      "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/component/text.js",
+      "name": "./src/index/component/text.js",
+      "index": 17,
+      "index2": 17,
+      "size": 125,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+      "issuerId": null,
+      "issuerName": "./src/index/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/edz/Desktop/study/webpack/webpack-demo/node_modules/babel-loader/lib/index.js!/Users/edz/Desktop/study/webpack/webpack-demo/src/index/index.js",
+          "name": "./src/index/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "filteredModules": 1,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  }
+}
